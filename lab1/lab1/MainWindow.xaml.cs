@@ -24,7 +24,7 @@ namespace lab1
     {
         ObservableCollection<Person> people = new ObservableCollection<Person>
         {
-            new Person {FirstName = "Imię", SurName="Nazwisko", Photo= new BitmapImage(new Uri("person_image_sample.jpg", UriKind.Relative))}
+            new Person {FirstName = "Imię", SurName="Nazwisko", Photo= new BitmapImage(new Uri("person_image_sample.jpg", UriKind.Relative))},
         };
 
         public ObservableCollection<Person> Items
