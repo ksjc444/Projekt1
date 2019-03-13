@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Lab1" Height="450" Width="800">
     <Grid>
-        <StackPanel HorizontalAlignment="Left" Height="175" Margin="485,179,0,0" VerticalAlignment="Top" Width="235" RenderTransformOrigin="0.494,0.507">
+        <StackPanel HorizontalAlignment="Left" Height="175" Margin="485,187,0,0" VerticalAlignment="Top" Width="235" RenderTransformOrigin="0.494,0.507">
             <Label Content="Imię:"/>
             <TextBox Name="FirstNameTextBox" Height="23" TextWrapping="Wrap" Text="" Margin="0,0,0,10"/>
             <Label Content="Nazwisko:"/>
@@ -15,12 +15,12 @@
             <Button x:Name="AddPersonButton" Content="Dodaj" Margin="0,10,0,10" Click="AddPersonButton_Click"/>
 
         </StackPanel>
-        <Image Name="BigImageDisplay" HorizontalAlignment="Left" Height="120" Margin="485,50,0,0" VerticalAlignment="Top" Width="120">
+        <Image Name="BigImageDisplay" HorizontalAlignment="Left" Height="120" Margin="485,58,0,0" VerticalAlignment="Top" Width="120">
             <Image.Source >
                 <BitmapImage UriSource="person_image_sample.jpg"/>
             </Image.Source>
         </Image>
-        <Button x:Name="LoadImageButton" Content="Wczytaj zdjęcie" HorizontalAlignment="Left" Margin="610,154,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click"/>
+        <Button x:Name="LoadImageButton" Content="Wczytaj zdjęcie" HorizontalAlignment="Left" Margin="610,162,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click"/>
         <ListBox ItemsSource="{Binding Items}" HorizontalAlignment="Left" Height="340" Margin="40,40,0,0" VerticalAlignment="Top" Width="350">
             <ListBox.ItemTemplate>
                 <DataTemplate>
