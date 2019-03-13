@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NetJavaLab1.Properties
+namespace lab1.Properties
 {
 
 
