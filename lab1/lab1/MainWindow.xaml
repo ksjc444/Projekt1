@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel HorizontalAlignment="Left" Height="175" Margin="485,179,0,0" VerticalAlignment="Top" Width="235" RenderTransformOrigin="0.494,0.507">
+            <Label Content="Imię:"/>
+            <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,0,10"/>
+            <Label Content="Nazwisko:"/>
+            <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="0,0,0,10"/>
+            <Button Content="Dodaj" Height="23" Margin="0,20,0,0"/>
+        </StackPanel>
+        <Image Name="BigImageDisplay" HorizontalAlignment="Left" Height="120" Margin="485,50,0,0" VerticalAlignment="Top" Width="120">
+            <Image.Source >
+                <BitmapImage UriSource="person_image_sample.jpg"/>
+            </Image.Source>
+        </Image>
+        <Button Content="Wczytaj zdjęcie" HorizontalAlignment="Left" Margin="610,154,0,0" VerticalAlignment="Top" Width="110"/>
+
     </Grid>
 </Window>
